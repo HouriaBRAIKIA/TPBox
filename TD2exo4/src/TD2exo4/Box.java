@@ -7,7 +7,7 @@ public class Box implements Cloneable{
 	private static int nbBox;
 	private int idBox;
 
-
+   
 	public Box() {
 		pixelHG = new Pixel(0,0);
 		pixelBD = new Pixel(0,0);
