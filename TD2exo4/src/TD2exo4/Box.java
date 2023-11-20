@@ -89,6 +89,11 @@ public class Box implements Cloneable{
 		return b;
 	}
 	
+	public Box clone2() throws CloneNotSupportedException{
+		Box b = (Box) super.clone();
+		return b;
+	}
+	
 	/*@Override
     public Box clone() throws CloneNotSupportedException{
 		Box b = (Box) super.clone();
